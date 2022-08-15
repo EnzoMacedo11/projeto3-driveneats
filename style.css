@@ -1,0 +1,545 @@
+* {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+body {
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    width: 414px;
+    height: auto;
+}
+.menuTop{
+    position: fixed;
+    top: 0;
+    left:0 ;
+    height: 92px;
+    width: 414px;
+    padding-left: 21px;
+    background-color: #CF2B2B;
+}
+.tituloMenu{
+    padding-top: 8px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    letter-spacing: -0.012em;
+
+    color: #FFFFFF;
+
+}
+.subTituloMenu{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+
+color: #FFFFFF;
+}
+
+.menuPrincipal{
+    margin-top: 123px;
+    padding-left: 19px;
+}
+.menuBebidas{
+    padding-left: 19px;
+}
+.menuSobremesa{
+    margin-bottom: 123px;
+    padding-left: 19px;
+}
+.tituloMenuPrincipal{
+    margin-top: 31px;
+    margin-bottom: 17px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+
+    color: #333333;
+}
+.opçõesMenuPrincipal{
+    display: flex;
+    overflow-x: scroll;
+   
+    
+}
+
+.prato1{
+    margin-right: 19px;
+    background-color:#FFFFFF;
+    min-width:fit-content;
+    width: 172px;
+    height: 216px;
+    justify-content: center;
+    border-radius: 9px;
+}
+.prato2{
+    margin-right: 19px;
+    background-color:#FFFFFF;
+    min-width:fit-content;
+    width: 172px;
+    height: 216px;
+    justify-content: center;
+    border-radius: 9px;
+}
+.prato3{
+    margin-right: 19px;
+    background-color:#FFFFFF;
+    min-width:fit-content;
+    width: 172px;
+    height: 216px;
+    justify-content: center;
+    border-radius: 9px;
+}
+.imgPrato1{
+    
+    display: flex;
+    justify-content: center;
+}
+.Hamburguer{
+    
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    
+}
+
+.textoPrato1{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+.subTextoPrato1{
+    margin-top: 4px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+.valorPrato1{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.imgPrato2{
+    
+    display: flex;
+    justify-content: center;
+}
+.Batata{
+    
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    
+}
+
+.textoPrato2{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+.subTextoPrato2{
+    margin-top: 4px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+.valorPrato2{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.imgPrato3{
+    
+    display: flex;
+    justify-content: center;
+}
+.Pizza{
+    
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    
+}
+
+.textoPrato3{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+.subTextoPrato3{
+    margin-top: 4px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+.valorPrato3{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+
+.bebida1{
+    margin-right: 19px;
+    background-color:#FFFFFF;
+    width: 172px;
+    height: 202px;
+    justify-content: center;
+    border-radius: 9px;
+    min-width:fit-content;
+}
+.bebida2{
+    margin-right: 19px;
+    background-color:#FFFFFF;
+    width: 172px;
+    height: 202px;
+    justify-content: center;
+    border-radius: 9px;
+    min-width:fit-content;
+}
+.bebida3{
+    margin-right: 19px;
+    background-color:#FFFFFF;
+    width: 172px;
+    height: 202px;
+    justify-content: center;
+    border-radius: 9px;
+    min-width:fit-content;
+}
+
+.imgBebida1{
+    display: flex;
+    justify-content: center;
+}
+.Coca{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 13px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+.textoBebida1{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+.subTextoBebida1{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left:15px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+
+}
+
+.valorBebida1{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.imgBebida2{
+    display: flex;
+    justify-content: center;
+}
+.Heineken{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 13px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+.textoBebida2{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+.subTextoBebida2{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left:15px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+
+}
+
+.valorBebida2{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.imgBebida3{
+    display: flex;
+    justify-content: center;
+}
+.DelValle{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 13px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+.textoBebida3{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #333333;
+}
+.subTextoBebida3{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    padding-left:15px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+
+}
+
+.valorBebida3{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+
+.sobremesa1{
+    margin-right: 19px;
+    min-width: fit-content;
+    background-color:#FFFFFF;
+    width: 172px;
+    height: 192px;
+    justify-content: center;
+    border-radius: 9px;
+}
+.sobremesa2{
+    margin-right: 19px;
+    min-width: fit-content;
+    background-color:#FFFFFF;
+    width: 172px;
+    height: 192px;
+    justify-content: center;
+    border-radius: 9px;
+}
+.sobremesa3{
+    margin-right: 19px;
+    min-width: fit-content;
+    background-color:#FFFFFF;
+    width: 172px;
+    height: 192px;
+    justify-content: center;
+    border-radius: 9px;
+}
+.imgPudim{
+    display: flex;
+    justify-content: center;
+}
+.Pudim{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 13px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.textoPudim{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+}
+.subTextoPudim{
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-left:15px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+
+}
+.menubot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 414px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoselecionar{
+    width: 364px;
+    height: 61px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CBCBCB;
+    border-radius: 50px;
+}
+
+
+.selecionadoP{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+border-radius: 9px;
+}
+.selecionadoB{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+border-radius: 9px;
+}
+.selecionadoS{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+border-radius: 9px;
+}
