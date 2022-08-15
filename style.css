@@ -221,7 +221,7 @@ color: #FFFFFF;
     
 }
 
-.textoPrato3{
+.textoPrato{
     margin-top: 8px;
     padding-left: 15px;
     display: flex;
@@ -397,7 +397,7 @@ color: #FFFFFF;
     height: 87px;
     border-radius: 4px;
 }
-.textoBebida3{
+.textoBebida{
     margin-top: 8px;
     padding-left: 15px;
     display: flex;
@@ -463,11 +463,11 @@ color: #FFFFFF;
     justify-content: center;
     border-radius: 9px;
 }
-.imgPudim{
+.imgSobremesa1{
     display: flex;
     justify-content: center;
 }
-.Pudim{
+.Sorvete{
     margin-top: 18px;
     margin-left: 15px;
     margin-right: 13px;
@@ -476,7 +476,7 @@ color: #FFFFFF;
     border-radius: 4px;
 }
 
-.textoPudim{
+.textoSobremesa1{
     margin-top: 8px;
     padding-left: 15px;
     display: flex;
@@ -489,7 +489,7 @@ color: #FFFFFF;
     
     color: #333333;
 }
-.subTextoPudim{
+.subTextoSobremesa1{
     margin-top: 4px;
     margin-bottom: 8px;
     padding-left:15px ;
@@ -500,6 +500,112 @@ color: #FFFFFF;
     line-height: 18px;
     color: #A6A6A6;
 
+}
+.valorSobremesa1{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.imgSobremesa2{
+    display: flex;
+    justify-content: center;
+}
+.Pave{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 13px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.textoSobremesa2{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+}
+.subTextoSobremesa2{
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-left:15px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+
+}
+.valorSobremesa2{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.imgSobremesa3{
+    display: flex;
+    justify-content: center;
+}
+.Brownie{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 13px;
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+}
+
+.textoSobremesa{
+    margin-top: 8px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #333333;
+}
+.subTextoSobremesa3{
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-left:15px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+
+}
+.valor{
+    margin-top: 5px;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
 }
 .menubot{
     position: fixed;
@@ -530,16 +636,25 @@ color: #FFFFFF;
     border-radius: 50px;
 }
 
+.visto{
+    display: none;
+    width: 16px;
+    height: 16px;
+    margin-left: 148px;
+    margin-top: -12px;
+}
 
-.selecionadoP{
+.selecionado{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
-border-radius: 9px;
+border-radius: 9px
+
 }
-.selecionadoB{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
-border-radius: 9px;
+.selecionado .visto{display:flex;}
+
+.FazerPedidoCor{
+    background-color: #32B72F;
 }
-.selecionadoS{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
-border-radius: 9px;
+.escondido{
+    display: none;
 }
+
